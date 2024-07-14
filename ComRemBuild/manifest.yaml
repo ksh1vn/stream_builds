@@ -13,24 +13,29 @@ authors: pavlikrpg
 release_date: 06/01/2024
 language: ru
 link: https://github.com/zatinu322/stream_builds
-logo: CommunityDisaster.png
+logo: assets/CommunityDisaster.png
 tags: [gameplay, story, visual]
 change_log: change_list_ru.md
 screenshots:
-  - img: screen_1.png
+  - img: assets/screen_1.png
     text: Новый скин Лисы
-  - img: screen_2.png
+  - img: assets/screen_2.png
     text: Титры в конце игры
+
+variants: [dw]
+
+data_dirs:
+  - data
 
 # installation confguration
 prerequisites: 
   - name: community_remaster
     versions:
-      - "1.14"
+      - "1.14.1"
     optional_content:
     - hd_gun_models
     - hd_vehicle_models
     - ost_remaster
-patcher_version_requirement: "2.0.12"
+patcher_version_requirement: "2.2.1"
 no_base_content: false
 optional_content: []
